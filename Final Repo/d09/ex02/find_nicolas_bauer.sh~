@@ -1,0 +1,1 @@
+cat phonebook | grep -i "bauer" | grep -i "nicolas" | grep -v "nicolasbauer" | grep -v "bauernicolas" | awk '{print $3}'
